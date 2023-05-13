@@ -1,0 +1,27 @@
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(2, 117, 221, 0.5);
+	padding: 0 10px;
+}
+
+#navbar-left, #navbar-right {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+#navbar-left li, #navbar-right li {
+	padding: 5px 10px;
+}
+
+.navbar-link {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-link-active {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
