@@ -6,6 +6,8 @@ import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import About from './components/About'
 import Contact from './components/Contact'
+import Products from './components/Products'
+import Product from './components/Product'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
 				<Route path='/' element={<Landing />}></Route>
 				<Route path='/about' element={<About />}></Route>
 				<Route path='/contact' element={<Contact />}></Route>
+				<Route path='/products' element={<Products />}></Route>
+				<Route path='/product/:productId' element={<Product />}></Route>
 			</Routes>
 		</BrowserRouter>
   );

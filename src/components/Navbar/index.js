@@ -35,6 +35,16 @@ const Navbar = () => {
             Contact Us
           </NavLink>
         </li>
+				<li>
+          <NavLink
+            to="/products"
+            className={({ isActive }) =>
+              isActive ? "navbar-link-active" : "navbar-link"
+            }
+          >
+            Products
+          </NavLink>
+        </li>
       </ul>
       <ul id="navbar-right">
         <li>Sign Up</li>
